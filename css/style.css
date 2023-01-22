@@ -2,12 +2,12 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* color: #545454; */
 }
 :root {
-  --primary-color: #dec0b2;
-  --secondary-color: white;
+  --font-guardian: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  --font-graphik: "Graphik Webfont", -apple-system, "Helvetica Neue",
+    "Droid Sans", Arial, sans-serif;
 }
 a {
   text-decoration: none;
@@ -44,8 +44,7 @@ li {
 }
 
 .bottom-nav a {
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
@@ -69,8 +68,7 @@ li {
 }
 
 .heading1 {
-  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
-    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-family: var(--font-guardian);
   font-size: 30px;
   font-weight: 300px;
   letter-spacing: 0.35px;
@@ -93,16 +91,14 @@ li {
   background-color: #fdebd2;
 }
 .about-company p {
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
 }
 
 .how-it-works {
-  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
-    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-family: var(--font-guardian);
   font-weight: 300;
 }
 
@@ -121,13 +117,11 @@ li {
 .product-card .product-name {
   line-height: 1.6;
   font-size: 14px;
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
 }
 
 .product-card .ratings {
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
@@ -136,8 +130,7 @@ li {
 
 .product-card .star-seller {
   color: #9560b8;
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.1px;
@@ -146,16 +139,14 @@ li {
 
 .product-card .discounted-price {
   line-height: 1.6px;
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 700;
   font-size: 16px;
 }
 
 .product-card .actual-price {
   color: #258635;
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 400;
 }
 .product-card .actual-price .amount {
@@ -173,8 +164,7 @@ footer {
 }
 
 .footer-header {
-  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
-    Arial, sans-serif;
+  font-family: var(--font-graphik);
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -188,3 +178,22 @@ footer {
 .footer-menu {
   padding-left: 0px;
 }
+
+/* category wise product starts here */
+.info-section p {
+  font-family: var(--font-graphik);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.info-section {
+  background-color: #f8ebe6;
+}
+
+.page-link{
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: rgba(34,34,34,.075);
+}
+/* category wise product ends here */
