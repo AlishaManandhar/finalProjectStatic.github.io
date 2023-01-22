@@ -1,0 +1,82 @@
+/****** root starts here ******/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* color: #545454; */
+}
+:root{
+    --primary-color: #dec0b2;
+    --secondary-color: white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/****** root ends here ******/
+
+/****** header starts here ******/
+nav{
+    /* box-shadow: 5px 2px 5px #e7e7e7; */
+}
+
+/****** header ends here ******/
+
+
+
+.carousel-item img{
+    object-fit: contain;
+    height: 80vh;
+    width: 100%;
+}
+
+.info-section{
+    background-color: #1E4C46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.info-section .content{
+    color:white;
+    text-align: center;
+    width: 50%;
+}
+
+.section-rentals .info-section, .section-rentals{
+    background-color: #D6E5E9 !important;
+}
+.section-rentals .info-section .content{
+    color:black !important;
+}
+
+
+.section-rentals .image-box{
+    height: 400px;
+}
+
+.section-rentals img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer{
+    background-color: #f7f7f7;
+    color: black;
+}
+
+/* .footer-header{
+    color: var(--primary-color);
+} */
+
+.footer-menu li a{
+    color: black;
+}
+
+.footer-menu{
+    padding-left: 0px;
+}
