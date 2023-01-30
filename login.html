@@ -30,7 +30,9 @@
                 <div class="col-2 py-2 signin-group">
                     <div class="row text-center">
                         <div class="col-6">
-                            <a href="#"> SignIn </a>
+                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                Sign IN
+                            </button>
                         </div>
                         <div class="col-3">
                             <a href="#" class="nav-icon">
@@ -55,6 +57,73 @@
             </nav>
         </div>
     </header>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="d-flex justify-space-between">
+                        <div class="modal-title fs-5" id="exampleModalLabel">Signin</div>
+                        <div class="modal-title fs-5" id="exampleModalLabel">Register</div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-dark" type="button">Sign in</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Register Modal -->
+     <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5>Create New Account</h5> <br>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <span>Registration is easy</span>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Firstname</label>
+                        <input type="password" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Lastname</label>
+                        <input type="password" class="form-control form-control-sm" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-dark" type="button">Register</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="section-cart">
         <div class="container">
@@ -160,7 +229,7 @@
                         <div class="col-type">Total (3 items)</div>
                         <div class="col-value">Rs 13.28</div>
                     </div>
-                <button type="button" class="btn btn-dark">Proceed to checkout</button>
+                    <button type="button" class="btn btn-dark">Proceed to checkout</button>
 
                 </div>
             </div>
