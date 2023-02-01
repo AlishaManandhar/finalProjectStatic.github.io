@@ -90,22 +90,15 @@ li {
   content: "";
   width: 100%;
   height: 3px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 /****** header ends here ******/
 
-.call-to-action {
-  position: relative;
-  height: 250px;
-}
-
 .call-to-action .bg-div {
   background-color: #ddebe3 !important;
-  height: 150px;
-}
-.call-to-action .content {
-  position: absolute;
-  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .heading1 {
@@ -120,12 +113,37 @@ li {
   width: 100%;
 }
 
+.category-box::after {
+  content: "";
+  border: 1px solid #ddebe3;
+  display: block;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 3px;
+}
+
+.category-box:hover::after {
+  border: 1px solid black;
+}
+
 .category-box img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
+}
+
+.category-box:hover img {
+  transform: scale(1.06);
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading1 {
+    font-size: 23px;
+  }
 }
 
 .about-company {

@@ -60,103 +60,157 @@
     </header>
     <!-- header ends here -->
 
+    <div class="modal fade" id="registerModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="firstname" class="form-label mb-1">Firstname</label>
+                            <input type="text" class="form-control form-control-sm" id="firstname"
+                                placeholder="John Doe">
+                        </div>
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="lastname" class="form-label mb-1">Lastname</label>
+                            <input type="text" class="form-control form-control-sm" id="lastname"
+                                placeholder="John Doe">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="email" class="form-label mb-1">Email address</label>
+                            <input type="email" class="form-control form-control-sm" id="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="password" class="form-label mb-1">Contact</label>
+                            <input type="password" class="form-control form-control-sm" id="password"
+                                placeholder="9803284512">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="email" class="form-label mb-1">Password</label>
+                            <input type="email" class="form-control form-control-sm" id="email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="col-md-6 col-sm-12 mb-3">
+                            <label for="password" class="form-label mb-1">Re-enter password</label>
+                            <input type="password" class="form-control form-control-sm" id="password"
+                                placeholder="9803284512">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label mb-1">Gender</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1"
+                                name="gender">
+                            <label class="form-check-label" for="inlineCheckbox1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2"
+                                name="gender">
+                            <label class="form-check-label" for="inlineCheckbox2">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3"
+                                name="gender">
+                            <label class="form-check-label" for="inlineCheckbox3">Others</label>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-dark" type="button">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="email" class="form-label mb-1">Email</label>
+                        <input type="email" class="form-control form-control-sm" id="email" placeholder="John Doe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label mb-1">Password</label>
+                        <input type="password" class="form-control form-control-sm" id="password"
+                            placeholder="**********">
+                    </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-dark" type="button">Login</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <main>
-        <div class="modal fade" id="registerModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Register</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="firstname" class="form-label mb-1">Firstname</label>
-                                <input type="text" class="form-control form-control-sm" id="firstname"
-                                    placeholder="John Doe">
+        <section class="call-to-action mb-3">
+            <div class="bg-div">
+                <div class="container my-3">
+                    <h2 class="text-center pt-3 heading1">Find clothes you like to wear. Rent dresses on Cloth Rentals.
+                    </h2>
+                    <div class="main-category mt-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8 col-sm-12 col-8">
+                                <div class="row justify-content-around mx-auto">
+                                    <div class="col-md-2 col-sm-4 col-6">
+                                        <div class="category-box">
+                                            <img src="https://i.etsystatic.com/6325918/c/2980/2980/10/0/il/b2cd19/1900187560/il_300x300.1900187560_8riy.jpg"
+                                                alt="clothing">
+                                            <a href="#" class="link-dark  mt-2 ms-3">Wedding</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4 col-6">
+                                        <div class="category-box">
+                                            <img src="https://i.etsystatic.com/6325918/c/2980/2980/10/0/il/b2cd19/1900187560/il_300x300.1900187560_8riy.jpg"
+                                                alt="clothing">
+                                            <a href="#" class="link-dark  mt-2 ms-3">Party</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4 col-6">
+                                        <div class="category-box">
+                                            <img src="https://i.etsystatic.com/6325918/c/2980/2980/10/0/il/b2cd19/1900187560/il_300x300.1900187560_8riy.jpg"
+                                                alt="clothing">
+                                            <a href="#" class="link-dark  mt-2 ms-3">Casual</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4 col-6">
+                                        <div class="category-box">
+                                            <img src="https://i.etsystatic.com/6325918/c/2980/2980/10/0/il/b2cd19/1900187560/il_300x300.1900187560_8riy.jpg"
+                                                alt="clothing">
+                                            <a href="#" class="link-dark  mt-2 ms-3">Formal</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4 col-6">
+                                        <div class="category-box">
+                                            <img src="https://i.etsystatic.com/6325918/c/2980/2980/10/0/il/b2cd19/1900187560/il_300x300.1900187560_8riy.jpg"
+                                                alt="clothing">
+                                            <a href="#" class="link-dark  mt-2 ms-3">Ethnic</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="lastname" class="form-label mb-1">Lastname</label>
-                                <input type="text" class="form-control form-control-sm" id="lastname"
-                                    placeholder="John Doe">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="email" class="form-label mb-1">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="email"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="password" class="form-label mb-1">Contact</label>
-                                <input type="password" class="form-control form-control-sm" id="password"
-                                    placeholder="9803284512">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="email" class="form-label mb-1">Password</label>
-                                <input type="email" class="form-control form-control-sm" id="email"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="col-md-6 col-sm-12 mb-3">
-                                <label for="password" class="form-label mb-1">Re-enter password</label>
-                                <input type="password" class="form-control form-control-sm" id="password"
-                                    placeholder="9803284512">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label mb-1">Gender</label><br>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1"
-                                    name="gender">
-                                <label class="form-check-label" for="inlineCheckbox1">Male</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2"
-                                    name="gender">
-                                <label class="form-check-label" for="inlineCheckbox2">Female</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="inlineCheckbox3" value="option3"
-                                    name="gender">
-                                <label class="form-check-label" for="inlineCheckbox3">Others</label>
-                            </div>
-                        </div>
-                        <div class="d-grid gap-2 col-12 mx-auto">
-                            <button class="btn btn-dark" type="button">Register</button>
                         </div>
                     </div>
+                    <!-- main-category ends here -->
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- call-to-action ends here -->
 
-        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="mb-3">
-                            <label for="email" class="form-label mb-1">Email</label>
-                            <input type="email" class="form-control form-control-sm" id="email" placeholder="John Doe">
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label mb-1">Password</label>
-                            <input type="password" class="form-control form-control-sm" id="password" placeholder="**********">
-                        </div>
-                        <div class="d-grid gap-2 col-12 mx-auto">
-                            <button class="btn btn-dark" type="button">Login</button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        </div>
     </main>
     <!-- main ends here -->
 
