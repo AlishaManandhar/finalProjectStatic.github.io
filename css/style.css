@@ -9,11 +9,18 @@
   --font-graphik: "Graphik Webfont", -apple-system, "Helvetica Neue",
     "Droid Sans", Arial, sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 li {
   list-style: none;
+}
+
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /****** root ends here ******/
@@ -27,11 +34,16 @@ li {
   border: 2px solid black !important;
   border-radius: 8px;
 }
+
 .brand {
   color: orange;
-  font-size: 30px;
+  font-size: 20px;
 }
 
+.login-modal-btn:hover {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+}
 .signin-group a {
   color: black;
   font-size: medium;
@@ -43,6 +55,11 @@ li {
   font-weight: bolder;
 }
 
+.nav-icon i:hover {
+  background-color: #f8f9fa;
+  border-radius: 50%;
+}
+
 .bottom-nav a {
   font-family: var(--font-graphik);
   font-weight: 400;
@@ -50,6 +67,30 @@ li {
   line-height: 18px;
   color: grey;
   letter-spacing: 1.2px;
+}
+
+.bottom-nav a:hover {
+  color: grey;
+}
+
+.bottom-nav a::after {
+  content: "";
+  border: 1px solid white;
+  display: block;
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 3px;
+}
+
+.bottom-nav a:hover::after {
+  border: 1px solid black;
+}
+
+.horizontal-line {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #DEDEDE;
 }
 /****** header ends here ******/
 
@@ -199,45 +240,44 @@ footer {
 /* category wise product ends here */
 /* product starts here */
 
-.product .images img{
+.product .images img {
   width: 75px;
   height: 75px;
   object-fit: cover;
 }
 
-.product .selected-image img{
+.product .selected-image img {
   width: 90%;
   height: 700px;
   object-fit: cover;
 }
 
-.buyer-detail .avatar img{
+.buyer-detail .avatar img {
   width: 40px;
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
 }
-.product .accordion-item{
-    border: none;
+.product .accordion-item {
+  border: none;
 }
 
-.product .accordion-item:focus{
-    border: none;
-    background-color: white;
-    box-shadow: none;
+.product .accordion-item:focus {
+  border: none;
+  background-color: white;
+  box-shadow: none;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: white;
-    box-shadow: none;
-    color:black;
-  }
+  background-color: white;
+  box-shadow: none;
+  color: black;
+}
 
-  .review-images img{
-    width: 95%;
-    height: 200px;
-    object-fit: cover;
-  }
-
+.review-images img {
+  width: 95%;
+  height: 200px;
+  object-fit: cover;
+}
 
 /* product ends here */
