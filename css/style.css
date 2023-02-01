@@ -95,7 +95,7 @@ li {
 /****** header ends here ******/
 
 .call-to-action .bg-div {
-  background-color: #ddebe3 !important;
+  background-color: rgb(221,235,227) !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,7 +298,7 @@ footer {
   .heading1 {
     font-size: 23px;
   }
-  .about-company p {
+  .about-company p, .info-section p {
     font-size: 10px;
     line-height: 20px;
     text-align: justify;
