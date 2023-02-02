@@ -23,6 +23,13 @@ li {
   box-shadow: none !important;
 }
 
+#important {
+  color: rgb(166, 26, 46);
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 /****** root ends here ******/
 
 /****** header starts here ******/
@@ -95,7 +102,7 @@ li {
 /****** header ends here ******/
 
 .call-to-action .bg-div {
-  background-color: rgb(221,235,227) !important;
+  background-color: rgb(221, 235, 227) !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,13 +252,110 @@ footer {
 }
 
 .page-link {
-  border-radius: 50% ;
+  border-radius: 50%;
   margin-right: 5px;
   background-color: rgba(34, 34, 34, 0.075);
 }
 /* category wise product ends here */
 /* product starts here */
 
+#piping {
+  color: #e1e3df;
+}
+.product-detail .sales-number {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.product-detail .cart-number {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(166, 26, 46);
+}
+
+.product-detail .product-name {
+  font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria,
+    "Noto Serif Light", "Droid Serif", Georgia, serif;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+  font-size: 23px;
+}
+
+.product-detail .price-info {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.product-detail .price-info .actual-price {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #595959 !important;
+}
+
+.actual-price .amount {
+  text-decoration: line-through;
+}
+
+.colors {
+  background-color: rgb(66, 68, 188);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#blue {
+  background-color: blue;
+  border: 1px solid blue;
+}
+#orange {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid red;
+}
+
+#black {
+  background-color: black;
+  border: 1px solid black;
+}
+
+#pink {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+#white {
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+}
+
+.color-btn {
+  display: inline-block;
+}
+
+.product-size span{
+  cursor: pointer;
+}
+
+.cart-btn{
+  border-radius: 16px;
+}
 .product .images img {
   width: 75px;
   height: 75px;
@@ -274,6 +378,16 @@ footer {
   border: none;
 }
 
+.accordion-button{
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.accordion-button:hover{
+  background-color: #EFEFEF !important;
+  border-radius: 16px;
+}
 .product .accordion-item:focus {
   border: none;
   background-color: white;
@@ -284,6 +398,15 @@ footer {
   background-color: white;
   box-shadow: none;
   color: black;
+}
+
+.accordion-body{
+  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1.05px;
+  text-align: justify;
 }
 
 .review-images img {
@@ -298,7 +421,8 @@ footer {
   .heading1 {
     font-size: 23px;
   }
-  .about-company p, .info-section p {
+  .about-company p,
+  .info-section p {
     font-size: 10px;
     line-height: 20px;
     text-align: justify;
