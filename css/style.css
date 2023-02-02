@@ -356,15 +356,15 @@ footer {
 .cart-btn{
   border-radius: 16px;
 }
-.product .images img {
+.product .images-variation img {
   width: 75px;
   height: 75px;
   object-fit: cover;
 }
 
 .product .selected-image img {
-  width: 90%;
-  height: 700px;
+  width: 100%;
+  height: 600px;
   object-fit: cover;
 }
 
