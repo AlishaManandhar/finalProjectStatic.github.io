@@ -245,7 +245,7 @@ footer {
 }
 
 .page-link {
-  border-radius: 50%;
+  border-radius: 50% ;
   margin-right: 5px;
   background-color: rgba(34, 34, 34, 0.075);
 }
