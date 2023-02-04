@@ -562,6 +562,10 @@ footer {
     height: 250px;
   }
 
+  .section-cart img {
+    height: 250px;
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
