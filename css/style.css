@@ -354,7 +354,7 @@ footer {
 }
 
 .cart-btn {
-  border-radius: 16px;
+  border-radius: 20px;
 }
 .product .images-variation img {
   width: 75px;
@@ -375,13 +375,14 @@ footer {
   border-radius: 50%;
 }
 
-.buyer-detail{
-  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+.buyer-detail {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
 }
-.buyer-detail .buyer-name{
+.buyer-detail .buyer-name {
   text-decoration: underline;
 }
 .product .accordion-item {
@@ -436,25 +437,111 @@ footer {
   line-height: 32px;
 }
 
-.review .review-text{
-  font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+.review .review-text {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1.03px;
   line-height: 20px;
 }
 
-.review  img {
+.review img {
   width: 100%;
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
 }
 
-.product-page .product-card img{
+.product-page .product-card img {
   height: 200px;
 }
 /* product ends here */
+
+/* cart starts here */
+.section-cart .home-link a {
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.section-cart img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.cart-detail {
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+  border-radius: 8px;
+}
+
+.quantity-btn {
+  border: 1px solid rgba(37, 37, 37, 0.2);
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 18px;
+}
+
+.decrement-btn {
+  margin-right: 5px;
+}
+
+.quantity-btn button {
+  background-color: white;
+  border: none;
+}
+
+.cart-product .product-name {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.cart-product .size,
+.cart-product .selectedColor {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  display: inline-block;
+  padding-top: 5px;
+  color: #222;
+}
+
+.cart-price {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.cart-price .item-price {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #595959;
+}
+
+.cart-price .delivery-time {
+  font-family: "Graphik Webfont", -apple-system, "Helvetica Neue", "Droid Sans",
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.delivery-time .time {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* cart ends here */
 
 @media only screen and (max-width: 600px) {
   .heading1 {
@@ -471,9 +558,10 @@ footer {
     height: 450px;
   }
 
-  .review  img {
+  .review img {
     height: 250px;
   }
+
 }
 
 @media only screen and (max-width: 400px) {
